@@ -1,0 +1,37 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("prisonlife gui", "Ocean")
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("prisonlife admin")
+Section:NewButton("admin crasher", "loads best admin", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/w0YgEDTH'))()
+end)
+Section:NewButton("tigger admin", "loads admin", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'),true))()
+
+end)
+
+Section:NewButton("ranked admin", "loads my 1st admin", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+end)
+
+
+local Tab = Window:NewTab("other admin")
+local Section = Tab:NewSection("other admin")
+
+Section:NewButton("infyeild", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+Section:NewKeybind("ye", "use h to close gui", Enum.KeyCode.h, function()
+	Library:ToggleUI()
+end)
+
+local Tab = Window:NewTab("other guis not by me")
+local Section = Tab:NewSection("previl x")
+Section:NewButton("previl x", "loads previl x", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/x24KgNwj", true))()
+end)
+Section:NewButton("previl x", "ButtonInfo", function()
+    
+end)
